@@ -1,4 +1,4 @@
-Documentation of Task Management Application 
+Anil Documentation of Task Management Application 
 ============================================
 In this documentation we have configured frontend and backend information.
 
@@ -10,31 +10,37 @@ step1:
 -------
  In order to see the output first we need to create a schema in MYSQL DB.
   ex:
-	MySQL> create schema demo;
-	MySQL> use demo;
+	MySQL> create schema demo; 
+	MySQL> use demo;       {" by using this schema we need to create a  task table to store the values see-->next"}
 
 step2:
 -------
 create table in MYSQL database inside demo schema.
 
-  ex:
+  ex: {" here i can create task table see below and -->next"}
 	MySQL> create table task(id int(3) AUTO_INCREMENT,
 		title varchar(15),
 		description varchar(20),primary key(id));
 
 step3:
 -------
+{"In Step 3 I can developing one frontend application for to do crud operations "}
+{"In this Application we can need to install some libraries for developing the application "}
+{" ex:- bootstrap ,react-router-dom,axios" see for testing -->next}
+
+
  To create React component we have install following libraries.
   ex:
 	frontend> npm install bootstrap
     	frontend> npm install react-router-dom
 	frontend> npm install axios 
-	frontend> npm install @testing-library/react 
-		  react-test-renderer@testing-library/jest-dom --save-dev
+	frontend> npm install @testing-library/react    {"here we need to installing Testing library for react"}
+		  react-test-renderer@testing-library/jest-dom --save-dev 
 		
 
 step4:
 -------
+{"In this Application we need install sometimes modules likes mysql db, express , body-parser,cors"}
 To create Node application we have install following modules.
   ex:
 	backend> npm install mysql   
@@ -45,18 +51,21 @@ To create Node application we have install following modules.
 
 step5:
 ---------
+{"need to run server.js we use --> node server.js"}
 To run the nodejs application we need to use below command.
   ex:
 	backend> node server.js 
 
 step6:
 -------
+{" finally, we need to run application"}
 To run the react application we need to use below command.
   ex:
 	frontend> npm start 
 
 step7:
 ------
+{"And one more we need to check test cases by using below command"}
 To run the test cases use below command.
   ex:
 	npm test
@@ -66,7 +75,7 @@ step8:
 You can clone the project by using below git URL.
   ex:
 
-	git clone https://github.com/GOPINADH96/task-management-app
+	git clone https://github.com/Anilkumar50833/Task-Management-App
 
 
 Link References 
@@ -74,8 +83,7 @@ Link References
 
 GIT URL : 
 
-https://github.com/GOPINADH96/task-management-app
-
+https://github.com/Anilkumar50833/Task-Management-App
 
 Hosted URL: 
 
