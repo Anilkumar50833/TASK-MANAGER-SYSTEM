@@ -26,7 +26,7 @@ const handleSubmit=(e)=>
 
 
   return(
-    <div className='wrapper d-flex bg-success align-items-center justify-content-center w-100'>
+    <div className='wrapper d-inline-flex bg-info align-items-center justify-content-center w-100'>
     <div className='login rounded'>
         <form className='needs-validation' onSubmit={handleSubmit}>
         <center><h2 className='mb-3 text-danger' >Login Form</h2></center>
